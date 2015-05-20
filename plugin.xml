@@ -46,6 +46,6 @@
         </config-file>
         <header-file src="src/ios/CordovaVungle.h" />
         <source-file src="src/ios/CordovaVungle.m" />
-        
+        <source-file src="src/ios/deps/VungleSDK" framework="true" />
     </platform>          
 </plugin>
