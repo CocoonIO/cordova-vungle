@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
-#import <VungleSDK/VungleSDK.h>
+#import "VungleSDK/VungleSDK.h"
 
 @interface CordovaVungle : CDVPlugin<VungleSDKDelegate> {
 

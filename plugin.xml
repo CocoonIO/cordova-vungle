@@ -47,7 +47,8 @@
         <header-file src="src/ios/CordovaVungle.h" />
         <source-file src="src/ios/CordovaVungle.m" />
 
-        <header-file src="src/ios/deps/include/VungleSDK.h" target-dir="VungleSDK" />
-        <source-file src="src/ios/deps/VungleSDK" framework="true" />
+        <header-file src="src/ios/VungleSDK/VungleSDK.h" target-dir="VungleSDK" />
+        <source-file src="src/ios/libvunglesdk.a" framework="true" />
+        <framework src="libsqlite3.dylib" />
     </platform>          
 </plugin>
